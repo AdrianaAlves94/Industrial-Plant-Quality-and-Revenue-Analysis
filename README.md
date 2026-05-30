@@ -119,7 +119,6 @@ Premium share is highest in the evening (53.7%) and night (51.2%), lowest in the
 .
 ├── README.md                          # This file
 ├── data/
-│   ├── raw/                           # Original Kaggle dataset
 │   └── cleaned/                       # Hourly aggregates and derived tables
 ├── docs/
 │   ├── assumptions.md                 # Every decision, with rationale
@@ -167,8 +166,6 @@ jupyter notebook notebooks/
 ## Author
 
 **Adriana Alves** — Data Analytics Bootcamp Capstone, Ironhack, 2026.
-
-📧 [your.email@example.com] · 🔗 [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
 
 ## License
 
