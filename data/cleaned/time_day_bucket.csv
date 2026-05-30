@@ -1,0 +1,13 @@
+time_of_day_bucket,quality_tier,hours_count,pct_total,pct_bucket
+evening,premium,551,13.44887,53.70370
+night,premium,525,12.81425,51.21951
+morning,premium,486,11.86234,47.64706
+afternoon,premium,482,11.76471,46.97856
+afternoon,standard,363,8.86014,35.38012
+morning,standard,341,8.32316,33.43137
+night,standard,325,7.93263,31.70732
+evening,standard,300,7.32243,29.23977
+morning,low,193,4.71076,18.92157
+afternoon,low,181,4.41787,17.64133
+night,low,175,4.27142,17.07317
+evening,low,175,4.27142,17.05653
