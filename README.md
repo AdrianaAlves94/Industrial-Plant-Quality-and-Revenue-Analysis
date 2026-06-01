@@ -1,4 +1,4 @@
-# Iron Processing Plant - Quality and Revenue Analysis
+# Industrial Iron Plant - Quality and Revenue Analysis
 
 *How often does an iron ore processing plant produce its best-quality output and what would it be worth to do that more often?*
 
