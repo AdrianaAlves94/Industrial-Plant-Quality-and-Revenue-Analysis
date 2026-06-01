@@ -26,7 +26,7 @@ The dashboard summarises the analysis in one view: how often quality is at its b
 
 ## The question
 
-The plant turns raw rock into iron ore concentrate. The cleaner the output — the less impurity left in — the more buyers pay for it. The analysis asks five related questions:
+The plant turns raw rock into iron ore concentrate. The cleaner the output, the less impurity left in and the more buyers pay for it. The analysis asks five related questions:
 
 1. **Quality mix** — What share of operating hours produce top-quality output vs middle vs low?
 2. **Time patterns** — Does quality vary by hour, day, or part of the day?
@@ -49,7 +49,7 @@ The missing volume data is the reason the revenue analysis stops at "per tonne" 
 
 ## How quality is defined
 
-Each hour is classified by its **silica content** — the impurity that real buyers penalise. Iron and silica are strongly inversely correlated in this dataset (r ≈ −0.80), so silica alone captures most of the quality story.
+Each hour is classified by its **silica content** (the impurity that real buyers penalise). Iron and silica are strongly inversely correlated in this dataset (r ≈ −0.80), so silica alone captures most of the quality story.
 
 | Tier | Silica % | Reasoning |
 |---|---|---|
@@ -90,16 +90,7 @@ Of 387 drops out of premium, the typical recovery (median) took **~2 hours**. Th
 Only 2 of 5 process inputs (pH variability, airflow variability) showed any difference between premium and non-premium hours. The intuitive idea that "smoother running = better quality" was not supported by the data. Reported as an honest negative result — stability is not a reliable quality indicator in this dataset.
 
 **5. Time of day is significant but trivial (a tested null in effect).**
-Premium share is highest in the evening (53.7%) and night (51.2%), lowest in the afternoon (47.0%). The chi-square test was significant (p = 0.030) but the effect size (Cramér's V = 0.041) is below the threshold for "small." Statistically real, operationally negligible — not worth reorganising shifts over.
-
----
-
-## Recommendations
-
-1. **Protect premium runs once achieved.** The strongest finding supports this directly — drops cost a multi-hour run, not just one hour.
-2. **Focus intervention on long recoveries.** Most drops self-correct; the small share that drag on are where the real cost is. Worth designing an early-warning signal for.
-3. **Quantify the penalty zone in dollars.** Once production rate is in, the ~18% of hours in the Low tier converts to a concrete revenue-loss figure — the business case for any improvement project.
-4. **Resist acting on the time-of-day pattern.** Real but too small to justify operational changes.
+Premium share is highest in the evening (53.7%) and night (51.2%), lowest in the afternoon (47.0%). The chi-square test was significant (p = 0.030) but the effect size (Cramér's V = 0.041) is below the threshold for "small." Statistically real, operationally negligible, not worth reorganising shifts over.
 
 ---
 
